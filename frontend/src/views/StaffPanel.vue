@@ -20,7 +20,8 @@ const errorMsg = ref('')
 const stockForm = ref({ item_name: 'Su (Koli)', quantity: 10 })
 const transferForm = ref({ target_id: '', item_name: 'Su (Koli)', quantity: 10 })
 
-const API_BASE = 'http://192.168.217.130:5000/api'
+// const API_BASE = 'http://192.168.217.130:5000/api'
+const API_BASE = 'http://13.61.179.179:5000/api'
 
 const productOptions = [
   'Su (Koli)', 'Konserve Gıda (Koli)', 'Battaniye', 'Çadır',

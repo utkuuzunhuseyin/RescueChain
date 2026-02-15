@@ -23,7 +23,8 @@ let map = null
 let warehouseLayer = null
 let truckLayer = null
 
-const API_BASE = 'http://192.168.217.130:5000/api'
+// const API_BASE = 'http://192.168.217.130:5000/api'
+const API_BASE = 'http://13.61.179.179:5000/api'
 
 const vanIcon = L.divIcon({ 
   className: 'vehicle-marker van', 

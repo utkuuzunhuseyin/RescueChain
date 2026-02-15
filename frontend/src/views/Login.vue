@@ -10,7 +10,8 @@ const errorMsg = ref('')
 const isLoading = ref(false)
 const showPassword = ref(false)
 
-const API_URL = 'http://192.168.217.130:5000/api/login'
+// const API_URL = 'http://192.168.217.130:5000/api/login'
+const API_URL = 'http://13.61.179.179:5000/api/login'
 
 const handleLogin = async () => {
   errorMsg.value = ''
