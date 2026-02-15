@@ -1,10 +1,12 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import Login from '../views/Login.vue'
 import AdminPanel from '../views/AdminPanel.vue'
 import StaffPanel from '../views/StaffPanel.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  // DİKKAT: Burada 'createWebHistory' yerine 'createWebHashHistory' kullanıyoruz.
+  // Bu sayede linklerin içine '#' işareti gelecek ve sunucu karışıklığı bitecek.
+  history: createWebHashHistory(),
   routes: [
     { path: '/', component: Login },
     { path: '/admin', component: AdminPanel },
